@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMarks Keeper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="bookmark-btn">
+            <h1>Add Bookmarks</h1>
+        </div>
+        <div id="bookmark-container"></div>
+    </div>
+
+
+
+    <!-- POPUP MODAL  -->
+    <div class="encloser" >
+        <div id="sub-container">
+            <div id="sub-header">
+                <i class="fas fa-times" id="closer-model"></i>
+
+                <h2>Add Bookmarks</h2>
+            </div>
+            <form id="form">
+                <div id="name-container">
+                    <label for="name">Website Name</label>
+                    <input id="name" type="text">
+                </div>
+                <div id="url-container">
+                    <label for="url">Website Url</label>
+                    <input id="url" type="text">
+                </div>
+                <button type="submit">Save</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
